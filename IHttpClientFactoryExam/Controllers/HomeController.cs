@@ -7,7 +7,7 @@ namespace IHttpClientFactoryExam.Controllers
         private readonly ILogger<HomeController> _logger;
         private readonly IHttpClientFactory _clientFactory;
 
-        public HomeController(
+        public HomeController( 
             ILogger<HomeController> logger,
             IHttpClientFactory clientFactory)
         {
